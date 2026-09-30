@@ -264,4 +264,4 @@ class ModulusCalculation(Calculation):
 
     def execute(self) -> float:
         # Calls the mod method from the Operation module to perform the modulus operation.
-        return Operation.mod(self.a, self.b) # pragma: no cover
+        return Operation.modulus(self.a, self.b) # pragma: no cover
